@@ -615,7 +615,7 @@ hr {
     position: fixed;
     bottom: 20px;
     right: 30px;
-    z-index: 3 !important;
+    z-index: 2;
     font-size: 18px;
     border: none;
     outline: none;
@@ -630,88 +630,106 @@ hr {
 #myBtn:hover {
     background-color: var(--red);
 }
-.img_width{
+
+.img_width {
     max-width: 413px;
 
 }
 
-.container_2{
+.container_2 {
     position: relative;
     width: 100%;
     display: flex;
     justify-content: center;
-  }
-  .wrapper{
+}
+
+.wrapper {
     position: absolute;
     top: -35px;
     transform: scale(1.5);
-  }
-  .loader{
+}
+
+.loader {
     height: 25px;
-   width: 1px;
-   position: absolute;
-   animation: rotate 3.5s linear infinite;
-  }
-  .loader .dot{
+    width: 1px;
+    position: absolute;
+    animation: rotate 3.5s linear infinite;
+}
+
+.loader .dot {
     top: 30px;
-   height: 7px;
-   width: 7px;
-   background: #fff;
-   border-radius: 50%;
-   position: relative;
-  }
-  .text{
+    height: 7px;
+    width: 7px;
+    background: #fff;
+    border-radius: 50%;
+    position: relative;
+}
+
+.text {
     position: absolute;
     bottom: -85px;
     font-size: 25px;
     font-weight: 400;
     font-family: sans-serif;
     color: #fff;
-  }
-  @keyframes rotate {
-    30%{
-      transform: rotate(220deg);
+}
+
+@keyframes rotate {
+    30% {
+        transform: rotate(220deg);
     }
-    40%{
-    transform: rotate(450deg);
-      opacity: 1;
-   }
-   75%{
-    transform: rotate(720deg);
-    opacity: 1;
-   }
-   76%{
-    opacity: 0;
-   }
-   100%{
-    opacity: 0;
-    transform: rotate(0deg);
-   }
-  }
-  .loader:nth-child(1){
+
+    40% {
+        transform: rotate(450deg);
+        opacity: 1;
+    }
+
+    75% {
+        transform: rotate(720deg);
+        opacity: 1;
+    }
+
+    76% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+}
+
+.loader:nth-child(1) {
     animation-delay: 0.15s;
-  }
-  .loader:nth-child(2){
+}
+
+.loader:nth-child(2) {
     animation-delay: 0.3s;
-  }
-  .loader:nth-child(3){
+}
+
+.loader:nth-child(3) {
     animation-delay: 0.45s;
-  }
-  .loader:nth-child(4){
+}
+
+.loader:nth-child(4) {
     animation-delay: 0.6s;
-  }
-  .loader:nth-child(5){
+}
+
+.loader:nth-child(5) {
     animation-delay: 0.75s;
-  }
-  .loader:nth-child(6){
+}
+
+.loader:nth-child(6) {
     animation-delay: 0.9s;
-  }
+}
+
 @media (min-width:320px) {
     .over_flow_img {
         position: unset;
         width: 100%;
         padding-top: 20px;
     }
+
     hr {
         width: 5px;
         height: 77px;
@@ -846,6 +864,7 @@ hr {
         padding-top: 67px;
         padding-bottom: 36px;
     }
+
     hr {
         width: 5px;
         height: 110px;
@@ -867,6 +886,7 @@ hr {
         width: 5px;
         height: 69px;
     }
+
     .over_flow_img {
         position: unset;
         width: 100%;
@@ -965,7 +985,8 @@ hr {
     .card_1 {
         max-width: 498px;
     }
-    .w_100{
+
+    .w_100 {
         width: 100%;
     }
 }
@@ -1063,6 +1084,7 @@ hr {
         right: 0;
         top: -6%;
     }
+
     .flex_wrap {
         flex-wrap: unset;
     }
@@ -1251,7 +1273,7 @@ hr {
         align-items: center;
         justify-content: center;
         transition: 300ms linear;
-        z-index: 3;
+        z-index: 2;
     }
 
     .overflow_hidden {
@@ -1261,21 +1283,21 @@ hr {
     .menu span:nth-child(1) {
         height: 2px;
         width: 30px;
-        background-color: var(--elips_color_pink);
+        background-color: var(--elips_color_violent);
         display: block;
     }
 
     .menu span:nth-child(2) {
         height: 2px;
         width: 30px;
-        background-color: var(--elips_color_pink);
+        background-color: var(--elips_color_violent);
         display: block;
     }
 
     .menu span:nth-child(3) {
         height: 2px;
         width: 30px;
-        background-color: var(--elips_color_pink);
+        background-color: var(--elips_color_violent);
         display: block;
     }
 
@@ -1326,7 +1348,8 @@ hr {
         height: 100%;
         padding-top: 30px;
     }
-    .studio_heading{
-        max-width:unset;
+
+    .studio_heading {
+        max-width: unset;
     }
 }
