@@ -376,6 +376,13 @@ ul {
 
 .phera_2 {
     max-width: 476px;
+    font-family: "gilroy";
+    color: var(--colorblack);
+    font-family: Gilroy;
+    font-size: var(--fs_sm);
+
+    font-weight: var(--fw_400);
+    line-height: 150%;
 }
 
 .Explore_btn {
